@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.start{
+    background-image: url(sources/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    border: 2px solid white;
+    height: 500px;
+    width: 360px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(2px);
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: larger;
+    color: white;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+}
+
+.input-container .box{
+    padding: 10px;
+    /* margin: 5px 10px; */
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+}
+
+::placeholder {
+    font-weight: 600;
+    color: white;
+    opacity: 1;
+}
+.input-container .btn{
+    /* margin: 0 12px; */
+    padding: 10px 0;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
+.input-container .btn:hover{
+    background-color: #5e325e;
+    color: white;
+}
+
+.box option{
+    color: black;
+}
